@@ -20,3 +20,5 @@ linter:
     sort_constructors_first: true
     unnecessary_to_list_in_spreads: true
     use_string_buffers: true
+    use_decorated_box: true
+    use_colored_box: true
