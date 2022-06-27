@@ -1,0 +1,11 @@
+include: package:flutter_lints/flutter.yaml
+
+
+linter:
+  rules:
+    use_build_context_synchronously: false      # This causes false-positives with riverpod
+    library_private_types_in_public_api: false  # This causes false-positives with riverpod
+    require_trailing_commas: true
+    avoid_slow_async_io: true
+    unnecessary_lambdas: true
+    sort_constructors_first: true
