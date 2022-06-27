@@ -1,5 +1,14 @@
 include: package:flutter_lints/flutter.yaml
 
+analyzer:
+  exclude:
+    - "**/generated/**"
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+  errors:
+    missing_required_param: error
+    missing_return: error
+    todo: ignore
 
 linter:
   rules:
@@ -9,3 +18,5 @@ linter:
     avoid_slow_async_io: true
     unnecessary_lambdas: true
     sort_constructors_first: true
+    unnecessary_to_list_in_spreads: true
+    use_string_buffers: true
