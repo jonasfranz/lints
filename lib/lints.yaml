@@ -1,6 +1,8 @@
 include: package:flutter_lints/flutter.yaml
 
 analyzer:
+  plugins:
+    - custom_lint
   exclude:
     - "**/generated/**"
     - "**/*.g.dart"
@@ -9,6 +11,9 @@ analyzer:
     missing_required_param: error
     missing_return: error
     todo: ignore
+
+custom_lint:
+  - missing_provider_scope: false
 
 linter:
   rules:

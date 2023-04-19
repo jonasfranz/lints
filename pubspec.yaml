@@ -1,9 +1,11 @@
 name: qbeyond_lints
 description: Linting rules used at q.beyond
-version: 0.0.1
+version: 0.0.2
 
 environment:
   sdk: ">=2.17.0 <3.0.0"
 
 dependencies:
-  flutter_lints: ^2.0.0
+  flutter_lints: ^2.0.1
+  custom_lint: ^0.3.4
+  riverpod_lint: ^1.3.0
